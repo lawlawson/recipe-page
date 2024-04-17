@@ -18,12 +18,14 @@ body {
   background-color: var(--clr-eggshell);
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .container {
   background-color: var(--clr-white);
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  max-width: 375px;
+  /* margin: 0 auto; */
   padding: 0 30px;
   font-size: var(--fs);
   font-family: 'Outfit', sans-serif;
@@ -141,4 +143,17 @@ h1 {
   border-bottom: 1px solid var(--clr-light-grey);
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 4rem 2rem;
+  }
+
+  .container {
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    /* width: 736px; */
+  }
 }
