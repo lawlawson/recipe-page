@@ -90,3 +90,9 @@ h1 {
 .ingredients {
   margin-bottom: 30px;
 }
+
+.divide {
+  border: 1px solid var(--clr-light-grey);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
