@@ -114,8 +114,31 @@ h1 {
   color: var(--clr-dark-raspberry);
 }
 
+.nutrition p {
+  margin-bottom: 20px;
+}
+
+.calories,
+.carbs,
+.proteins,
+.fats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.calories span,
+.carbs span,
+.proteins span,
+.fats span {
+  font-weight: bold;
+  color: var(--clr-dark-raspberry);
+}
+
 .divide {
-  border: 1px solid var(--clr-light-grey);
+  border-bottom: 1px solid var(--clr-light-grey);
   margin-top: 5px;
   margin-bottom: 20px;
 }
