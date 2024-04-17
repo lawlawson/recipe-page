@@ -91,6 +91,29 @@ h1 {
   margin-bottom: 30px;
 }
 
+.instructions ol {
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+
+.instructions ol li {
+  color: var(--clr-wenge-brown);
+  padding-left: 30px;
+}
+
+.instructions ol li span {
+  font-weight: bold;
+}
+
+.instructions ol li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ordered-list-numbers li::marker {
+  font-weight: bold;
+  color: var(--clr-dark-raspberry);
+}
+
 .divide {
   border: 1px solid var(--clr-light-grey);
   margin-top: 5px;
