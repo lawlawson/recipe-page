@@ -49,7 +49,7 @@ h1 {
 .preparation {
   background-color: var(--clr-rose-white);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-bottom: 30px;
 }
 
@@ -125,9 +125,8 @@ h1 {
 .fats {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: start;
+  margin-left: 15px;
 }
 
 .calories span,
@@ -136,6 +135,19 @@ h1 {
 .fats span {
   font-weight: bold;
   color: var(--clr-dark-raspberry);
+}
+
+.nutrition-span {
+  margin-left: 60px;
+}
+.carbs-span {
+  margin-left: 75px;
+}
+.protein-span {
+  margin-left: 65px;
+}
+.fats-span {
+  margin-left: 85px;
 }
 
 .divide {
@@ -155,5 +167,29 @@ h1 {
     margin: 0 auto;
     padding: 30px;
     max-width: 736px;
+  }
+
+  .container img {
+    border-radius: 20px;
+  }
+
+  .calories,
+  .carbs,
+  .proteins,
+  .fats {
+    margin-left: 50px;
+  }
+
+  .nutrition-span {
+    margin-left: 250px;
+  }
+  .carbs-span {
+    margin-left: 265px;
+  }
+  .protein-span {
+    margin-left: 255px;
+  }
+  .fats-span {
+    margin-left: 275px;
   }
 }
