@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   padding: 0 30px;
   font-size: var(--fs);
-  max-width: 375px;
+  max-width: 767px;
   font-family: 'Outfit', sans-serif;
 }
 
