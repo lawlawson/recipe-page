@@ -53,9 +53,10 @@ h1 {
   margin-bottom: 30px;
 }
 
-.preparation h4 {
+.preparation h2 {
   color: var(--clr-dark-raspberry);
   margin: 5px;
+  font-size: var(--fs);
 }
 
 .preparation ul,
