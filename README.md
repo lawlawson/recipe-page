@@ -35,7 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was a good small project to work on on few things such as working with lists, tables, fonts, styling individual elements and tables, although my final implementation didn't include a traditional html table. It was also good to work on a design that has some changes between mobile and desktop implementation which proved a bit more challenging than expected at times.
 
 ## Author
 
